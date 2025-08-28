@@ -1,0 +1,1 @@
+export { initMetricRoute } from "./metrics";
