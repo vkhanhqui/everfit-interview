@@ -37,7 +37,7 @@ export class Metric {
     return this.userId;
   }
 
-  getType(): string {
+  getType(): MetricType {
     return this.type;
   }
 
@@ -45,7 +45,7 @@ export class Metric {
     return this.value;
   }
 
-  getUnit(): string {
+  getUnit(): DistanceUnit | TemperatureUnit {
     return this.unit;
   }
 
