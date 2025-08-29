@@ -7,8 +7,8 @@ import {
   MetricListLatestInput,
 } from "../dto/metrics";
 import { Metric, DistanceUnit, TemperatureUnit } from "../models/Metric";
-import { convertValue } from "../utils/metrics/metricConverter";
-import { getFromDate } from "../utils/metrics/periodConverter";
+import { convertValue } from "../utils/metrics/metric-converter";
+import { getFromDate } from "../utils/metrics/period-converter";
 
 export interface MetricService {
   create(input: MetricCreateInput): Promise<Metric>;
